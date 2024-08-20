@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #2980b9, #6dd5fa);
+}
+/* Höhe und Bereite von container definiert */
+.container {
+    display: flex; /*ermöglicht anpassungsfähige Layouts zu erstellen, bei denen die Größe der Elemente angepasst und sie je nach verfügbarem Platz neu angeordnet werden */
+
+    justify-content: center; /* hier mache ich box in mitte*/
+    align-items: center;
+    height: 100vh; /* vh steht für Viewport ist der sichtbare Bereich der Webseite im Browserfenster des Benutzers */
+}
+
+.box {
+    background: linear-gradient(45deg, #ffffff, #f2f2f2);
+    border-radius: 10px;
+    padding: 30px; /* hier manche ich abstand von andern elemente  */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	/* Schatten margin */
+    margin-bottom: 20px;
+    text-align: center;
+	
+}
+.box2 {
+	float: left;
+}
+.produktbox{
+	inline-size: 300px;
+	height: 450px;
+	margin-right: 5px;
+}
+.produktdetailimg{
+	text-align: left;
+ 
+}
+.beschreibung{
+    font-family: Arial;
+	font-size: 14px;
+    width: 400px;
+	margin-left: 2%;
+	padding-right: 15px;
+}
+.rechtedivbestellungseite{
+ display: flex; /*ermöglicht anpassungsfähige Layouts zu erstellen, bei denen die Größe der Elemente angepasst und sie je nach verfügbarem Platz neu angeordnet werden */
+    flex-direction: column; /* Mit dem mache ich item zu vertikel*/
+    align-items: center;
+	font-family: Arial;
+	font-size: 14px;
+    width: 300px;
+	height: 80vh;
+	border-radius: 10px;
+	border: 2px #6E6E6E solid;
+	background: #F2F2F2;
+}
+
+/* link  */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+/* Wenn maus über Link ist dann wird unterline gezeigt */
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    text-align: center;
+}
+
+.input-container {
+    position: relative; /*  Element 2 wird dann nicht mehr im normalen Dokumentenfluss platziert, sondern relativ zu Element 1.  */
+    margin-bottom: 20px;
+}
+
+/* Eingabefeldern Style */
+input {
+    width: 240px;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+label {
+    position: absolute;
+    top: 35%;
+    left: 15px;
+    color: #6c757d;
+    transition: all 0.3s ease; /*animation */
+    pointer-events: none; /* mit hier verhinder ich auswahlen von text in input */
+}
+/* Hier mache ich Placeholder kleiner wenn in Felder geklickt wurde*/
+input:focus + label,
+input:valid + label {
+    top: 5px;
+    font-size: 12px;
+    color: #007bff;
+}
+/* Mit große habe in input gemacht  */
+input[type="submit"] {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: #fff;
+	border: none;
+    /*Rund */
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+	/*farbe andern wenn maus über button ist */
+input[type="submit"]:hover {
+    background: linear-gradient(45deg, #0056b3, #003f7f);
+}
+
+.loginoutbox {
+    background: linear-gradient(45deg, #ffffff, #f2f2f2);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-self: flex-end; /* Links ausgerichtet */
+    margin-top: auto; /* Damit der Abstand oben bleibt */
+}
+textarea {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none; /* verhindert vergrößerung von textarea mit maus */
+}
+
+.cookiesscript {
+    font-size: 20px;
+    color: white;
+    top: 90%;
+    left: 15px;  
+}
+.mLogin {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    top: 5%;
+    left: 90%;  
+}
+
+img{
+ object-fit: cover;
+ border: 2px #BDBDBD solid;
+ border-radius: 10px;
+}
+
+.willkommenimg {
+	position: absolute;
+	top: 20%;
+}
+
+p {
+   text-wrap: pretty;
+	text-align: left;
+}
