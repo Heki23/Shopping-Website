@@ -9,6 +9,6 @@
 
 ### :camera: Screenshots
 
-<div align="center"> <a href=""><img src="https://github.com/Heki23/screenshots/LoginPage" alt='image' width='800'/></a> </div>
+<div align="center"> <a href=""><img src="screenshots/LoginPage" alt='image' width='800'/></a> </div>
 <div align="center"> <a href=""><img src="https://github.com/Heki23/MessageWebsiteUeb/blob/main/Screenshots/2.png" alt='image' width='800'/></a> </div>
 <div align="center"> <a href=""><img src="https://github.com/Heki23/MessageWebsiteUeb/blob/main/Screenshots/3.png" alt='image' width='800'/></a> </div>
