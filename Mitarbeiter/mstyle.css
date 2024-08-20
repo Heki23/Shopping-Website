@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #2980b9, #6dd5fa);
+}
+
+.container {
+    display: flex; /*ermöglicht anpassungsfähige Layouts zu erstellen, bei denen die Größe der Elemente angepasst und sie je nach verfügbarem Platz neu angeordnet werden */
+
+    justify-content: center; /* hier mache ich box in mitte*/
+    align-items: center;
+    height: 100vh; /* vh steht für Viewport ist der sichtbare Bereich der Webseite im Browserfenster des Benutzers */
+}
+/* Höhe und Bereite von container definiert */
+.NachrichtContainer {  
+    flex-direction: column; /* Mit dem mache ich item zu vertikel*/
+    height: 80vh;
+}
+
+.nachrichtbox {
+    height: 80%; /* 80% der Höhe des Containers */
+	width: 60%;
+    min-height: 50px; /* Mindesthöhe für Inhalt */
+}
+.meinenachrichtlink {
+    font-size: 20px;
+	position: sticky;
+    top: 0;
+	left: 90%;
+    padding: 5px;
+}
+
+.loginoutbox {
+    background: linear-gradient(45deg, #ffffff, #f2f2f2);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.box {
+    background: linear-gradient(45deg, #ffffff, #f2f2f2);
+    border-radius: 10px;
+    padding: 20px; /* hier manche ich abstand von andern elemente  */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	/* Schatten margin */
+    margin-bottom: 20px;
+    text-align: center;
+	
+}
+
+.box3 {
+	text-align: left;
+}
+.nachtrichtlesenbox {
+	inline-size: 1100px;
+	max-height: 550px;
+	overflow: scroll; /* vertikaler Scrollbalken bei Bedarf */
+	overflow-x: hidden; /* horizontaler Scrollbalken ausgeblendet */
+}
+
+textarea {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none; /* verhindert vergrößerung von textarea mit maus */
+}
+
+/* Eingabefeldern Style */
+input {
+    width: 240px;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/* Mit große habe in input gemacht  */
+input[type="submit"] {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: #fff;
+	border: none;
+    /*Rund */
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+	padding: 15px;
+}
+	/*farbe andern wenn maus über button ist */
+input[type="submit"]:hover {
+    background: linear-gradient(45deg, #0056b3, #003f7f);
+}
+
+/* link  */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+/* Wenn maus über Link ist dann wird unterline gezeigt */
+a:hover {
+    text-decoration: underline;
+}
+th, td {
+    padding: 5px; /* Abstand zwischen Zelleninhalt und Rand */
+    text-align: left; /* Textausrichtung */
+}
+
+p {
+    text-wrap: pretty;
+}
