@@ -1,9 +1,4 @@
-<div align='center'>
 
-<h4> <span> · </span> <a href="https://github.com/Heki23/MessageWebsiteUeb/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/Heki23/MessageWebsiteUeb/issues"> Request Feature </a> </h4>
-
-
-</div>
 
 ### :camera: Screenshots  
 
