@@ -1,0 +1,16 @@
+<p>Ausstattung:<br>
+Prozessor: Intel Pentium 4400T, 2x2900 MHz<br>
+Arbeitsspeicher: 8192 MB DDR4<br>
+SSD: 256 GB NVME SSD (Windows und Programme starten enorm schnell durch eine SSD)<br>
+3D-Grafikkarte: Intel UHD Graphics, DirectX 12, mit VGA und 2x Displayport Anschluss<br>
+Gehäuse: HP ProDesk G2 Mini PC (18x18x3.5 cm), Seitenteil abnehmbar, Farbe schwarz<br>
+USB 3.0: ja, 6x, sowie 1x USB C<br>
+Netzwerk: 10/100/1000 MBit/s Ethernet LAN, DSL fähig<br>
+Sound: integrierter OnBoard 5.1 Controller, HD Audio<br>
+Netzteil: 65 Watt passives Netzteil<br>
+TFT: difinity Full-HD 24" (23.5" sichtbar) LED Monitor - Auflösung 1920x1080 (FullHD) - Helligkeit: 250cd/m² - Kontrast: 1000:1 - Reaktionszeit: 5ms - Blickwinkel: 170°/160°<br>
+Tastatur und Maus: LC Power Multimedia-Tastatur + LC Power Multimedia-Maus (optisch), beide schwarz<br>
+Betriebssystem: Original Microsoft Windows 11 Professional 64 Bit vorinstalliert mit allen Treibern, ohne Werbesoftware oder ähnliches<br>
+Office: Microsoft Office 2010 Starter inkl. Word und Excel 2010, kein Abo nötig, Laufzeit unbegrenzt<br>
+Virenscanner und Internetschutz: GData Internet Security (neueste Version) Vollversion, inkl. 1/2 Jahr Updates<br>
+E-Book: "Fahrt nach Futuras!" von Gerd Breitenfeld, Kontrast Verlag, ISBN-10: 3935286023</p>

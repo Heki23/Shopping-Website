@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- stellt sicher, dass der Browser den Text wie ä,ü,ß auf der Webseite korrekt interpretiert und darstellt, unabhängig von der verwendeten Sprache oder den Zeichen im Text  -->
+    <meta charset="UTF-8">
+    <title>Unsere Produkte</title>
+    <link href="../../style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+        <h1>Unsere Produkte</h1>
+    </div>
+	
+    <div class="container">
+	  <div class="box produktdetailimg"> 
+		<table>
+	    <tr>
+		  
+           <td><img src="1.jpg" height=400px /> </td>
+		   <td><div class="beschreibung" >
+           <h4><p>24" FullHD Komplett-Paket Mini PC 10-Watt Office, IntelPentium®4400T 2x2.9 GHz, 8GB, 256GB SSD, Windows 11 Pro, DP, VGA, Gigabit LAN, USB 3.0, MS Office 2010 Starter, 3 Jahre Garantie! - 7151</p></h4>	
+	
+	
+   
+		   <hr style='width:100%' align='left' color='#D8D8D8' size='1'></hr>
+		   <h2>Info zu diesem Artikel</h2>
+		   <p>
+		   <ul>
+		   <li>Komplett-Paket der Spitzenklasse! HP Mini PC mit Intel Pentium 4400T 2x2.9 GHz + 24" difinity Full-HD TFT mit Lautsprechern. Sie können den Mini PC wahlweise unter/neben den Monitor legen oder an die Rückseite schrauben (siehe Bilder).</li>
+           <li>Der neue Mini PC kann leichte Kratzer haben, bedingt durch eine Lagerung ohne Karton (Gerät wird vor Transport natürlich verpackt), der Bildschirm sowie Tastatur und Maus sind dagegen originalverpackt und nagelneu. Sie bekommen volle 3 Jahre Garantie auf das komplette Set!</li>
+           <li>Im Paket dabei: HP Mini PC mit 8GB + 256 GB SSD, Windows 11 Prof. installiert, difinity 24" Full-HD Monitor (inkl. Lautsprecher), Tastatur, Maus, Sie können sofort arbeiten!</li>
+          <li>Superkleiner Mini PC! nur 18cmx18cmx3.5cm, 400g leicht</li>
+          <li>Der PC wird mit Betriebssystem geliefert, Microsoft Windows 11 Prof. 64Bit ist inkl. aller Treiber fertig installiert. Um Viren und andere Schädlinge zuverlässig abzuwehren ist die neueste GDATA Internet Security installiert inkl. einem halben Jahr Updates. Außerdem ist MS Office 2010 Starter (Word 2010 und Excel 2010 ) als Vollversion enthalten (kein Abo nötig, unbegrenzte Laufzeit)</li>
+         <li>Anschlüsse des Mini PCs: 1x VGA, 2x Displayport, 6x USB 3.0, 1x Gb LAN, 2x Klinke (inkl. Mikrofon)</li>
+		 </ul>
+		   </p>
+           </div ></td>
+		   <td>
+		  <div class="rechtedivbestellungseite">
+			<table>
+			<tr>
+			<td><h2 style="margin-top: 30%; height:5px;  align-items: center;">222,00€</h2></td>
+			</tr>
+			<tr>
+			<td><h2 style="color:green; height:15px">Auf Lager</h2></td>
+			</tr>
+			<form method="POST" action="../bestellen.php">	
+           <input type="hidden" name="ProduktID" value="1">
+			<tr><td>
+		   Menge: <select name="bestellmenge">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                 <option value="3">3</option>
+                 <option value="4">4</option>
+		         <option value="5">5</option>
+                 <option value="6">6</option>
+                 <option value="7">7</option>
+                <option value="9">8</option>
+		       <option value="10">10</option>
+            </select><br><br>
+			</td></tr>
+			<tr>
+			<td>
+			    <div class="input-container">
+                    <input type="text" id="str" name="kstr" required>
+                    <label for="str">Straße</label>
+                </div>
+				<div class="input-container">
+                    <input type="text" id="kort" name="kortundplz" required>
+                    <label for="kort">Ort, PLZ</label>
+                </div>
+			</td>
+			</tr>
+		   <tr>
+		   <td><input type="submit" value="Bestellen"></td>
+		   </tr>
+		   </table>
+		    </table>
+			</div>
+		   </td>  
+       </tr>
+      	
+	  </div>
+     </form>	  
+		
+      </div>
+   
+  	
+   </label>
+  <div class="loginoutbox">
+         <h2><a href="logout.php">Ausloggen</a></h2>
+     </div>
+</body>
+</html>
