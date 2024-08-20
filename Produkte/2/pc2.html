@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- stellt sicher, dass der Browser den Text wie ä,ü,ß auf der Webseite korrekt interpretiert und darstellt, unabhängig von der verwendeten Sprache oder den Zeichen im Text  -->
+    <meta charset="UTF-8">
+    <title>Unsere Produkte</title>
+    <link href="../../style.css" type="text/css" rel="stylesheet">
+	<script src="../produktname.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="box">
+        <h1>Unsere Produkte</h1>
+    </div>
+	
+    <div class="container">
+	
+	   <div class="box produktdetailimg"> 
+		<table>
+	    <tr>
+		  
+           <td><img src="2.jpg" height=400px /> </td>
+		   <td><div class="beschreibung" >
+           <h4><p>BEASTCOM Q3 Essential Gaming, Komplett Set PC, AMD Ryzen 5 4X 3,90GHz 8 Threads, 4K Vega 11 Kern Grafik, 16GB RAM, 1TB SSD, Monitor LED 24", Tastatur, Maus, Mauspad, WiFi, Windows 11 Pro</p></h4>	
+	
+		  
+		   <hr style='width:100%' align='left' color='#D8D8D8' size='1'></hr>
+		   	    <h2>Info zu diesem Artikel</h2>
+		   <p>
+		   <ul><li>🎀 𝐀𝐋𝐋𝐄𝐒 𝐀𝐔𝐒 𝐄𝐈𝐍𝐄𝐑 𝐇𝐀𝐍𝐃: Lästiges Zusammensuchen einzelner Teile adé! Bei uns erhältst du neben deinem Gaming PC eine perfekt dafür abgestimmte Gaming Maus, Mauspad & Tastatur dazu.</li>
+           <li>🎀 𝐅𝐀𝐑𝐁𝐄𝐍 𝐒𝐄𝐇𝐄𝐍: 19, 22 oder 24 Zoll? 75 Hz? Wie viel Reaktionszeit? Um all diese Fragen kümmern wir uns: 24 Zoll, 75 Hz und 5ms Reaktionszeit. Dein Gaming Full-HD Bildschirm mit 16,78 Millionen Farben um noch tiefer in die Gaming-Welt einzutauchen!</li>
+          <li>🎀 𝐖𝐈𝐍𝐃𝐎𝐖𝐒 11 𝐆𝐀𝐌𝐈𝐍𝐆: Aktuellste Technik gepaart mit dem neuen Windows 11 für ein noch besseres Gaming Erlebnis!</li>
+          <li>🎀 𝐁𝐄𝐀𝐒𝐓 𝐆𝐎𝐄𝐒 𝐑𝐆𝐁: Da uns Farbenfreude genauso wichtig ist wie dir, sind unsere Computer der Q3 Serie dank RGB ein echter Hingucker – auch unsere Gaming Maus & Tastatur überzeugen mit echten Farbenspielchen, gerne auch alle gleichzeitig! 🌈</li>
+          <li>🎀 𝐒𝐂𝐇𝐍𝐄𝐋𝐋𝐄 𝐋𝐈𝐄𝐅𝐄𝐑𝐔𝐍𝐆 & 𝐊𝐎𝐒𝐓𝐄𝐍𝐋𝐎𝐒𝐄𝐑 𝐑Ü𝐂𝐊𝐕𝐄𝐑𝐒𝐀𝐍𝐃: Kaum bestellt, ist unser Gaming PC Komplett Set bei dir. Falls du dir nicht sicher sein solltest, kannst du es bis zu 30 Tage testen und kostenlos zurückschicken!</li>
+         </ul></p>
+           </div ></td>
+		   <td>
+		 <div class="rechtedivbestellungseite">
+			<table>
+			<tr>
+			<td><h2 style="margin-top: 30%; height:5px;  align-items: center;">759,00€</h2></td>
+			</tr>
+			<tr>
+			<td><h2 style="color:green; height:15px">Auf Lager</h2></td>
+			</tr>
+			<form method="POST" action="../bestellen.php">
+           <input type="hidden" name="ProduktID" value="2">
+   			
+			<tr><td>
+		   Menge: <select name="bestellmenge">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                 <option value="3">3</option>
+                 <option value="4">4</option>
+		         <option value="5">5</option>
+                 <option value="6">6</option>
+                 <option value="7">7</option>
+                <option value="9">8</option>
+		       <option value="10">10</option>
+            </select><br><br>
+			</td></tr>
+			<tr>
+			<td>
+			    <div class="input-container">
+                    <input type="text" id="str" name="kstr" required>
+                    <label for="str">Straße</label>
+                </div>
+				<div class="input-container">
+                    <input type="text" id="kort" name="kortundplz" required>
+                    <label for="kort">Ort, PLZ</label>
+                </div>
+			</td>
+			</tr>
+		   <tr>
+		   <td><input type="submit" value="Bestellen"></td>
+		   </tr>
+		     </form>
+		    </table>
+			</div>
+		   </td>  
+       </tr>
+      </table>			
+   	  
+        </div>
+     </form>	  
+		
+      </div>
+   
+  	
+   </label>
+  <div class="loginoutbox">
+         <h2><a href="logout.php">Ausloggen</a></h2>
+     </div>
+</body>
+</html>

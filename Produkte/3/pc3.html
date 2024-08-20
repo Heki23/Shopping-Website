@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- stellt sicher, dass der Browser den Text wie ä,ü,ß auf der Webseite korrekt interpretiert und darstellt, unabhängig von der verwendeten Sprache oder den Zeichen im Text  -->
+    <meta charset="UTF-8">
+    <title>Unsere Produkte</title>
+    <link href="../../style.css" type="text/css" rel="stylesheet">
+	<script src="../produktname.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="box">
+        <h1>Unsere Produkte</h1>
+    </div>
+	
+    <div class="container">
+   <div class="box produktdetailimg"> 
+		<table>
+	    <tr>
+		  
+           <td><img src="3.jpg" height=400px /> </td>
+		   <td><div class="beschreibung" >
+           <h4><p>Komplett PC Set Intel i7 4770 8-Thread 3.90 GHz Business Office Multimedia Computer mit 3 Jahren Garantie! |3.8 GHz | 16GB | 512 GB SSD | DVD±RW | USB3 | Windows 11 Prof.</p></h4>	
+	
+       
+		   <hr style='width:100%' align='left' color='#D8D8D8' size='1'></hr>
+		   	    <h2>Info zu diesem Artikel</h2>
+		  <p><ul>
+		   <li>Hinweis: Neues Gerät mit teilweise leichten Kratzern auf der Oberseite bedingt durch die Lagerung ohne Karton (Gerät wird vor Transport natürlich verpackt). Keine Kratzer an der Front oder ähnliches, wirklich nur leichte kosmetische Kratzer auf der Oberseite, teilweise auch gar keine Kratzer. Volle 3 Jahre Garantie!</li>
+           <li>Komplettes Paket! Marken-PC + 24" Marken-TFT + Tastatur und Maus! Alles fertig eingerichtet, nur anschließen und loslegen! Das Gerät ist mit einem sehr schnellen i7 4770 Prozessor sowie schnellen 16 GB DDR3 Markenarbeitsspeicher ausgestattet, die mehr als genug Leistung für rechenintensive Anwendungen, Multitasking und Multimedia bereitstellen. Die große 512 GB SSD ist ideal um all ihre Daten zu speichern. Der schnelle DVD-Brenner liest und brennt zuverlässig alles auf CD oder DVD.</li>
+           <li>Arbeiten Sie in Ruhe, ohne störende Lüfter-Geräusche! Das Gerät verfügt über ein Silent Netzteil und einen geregelten, leisen CPU Kühler.</li>
+           <li>Der PC wird mit Betriebssystem geliefert, Microsoft Windows 11 Professional 64Bit ist inkl. aller Treiber fertig installiert. Um Viren und andere Schädlinge zuverlässig abzuwehren ist die neueste GDATA Internet Security installiert inkl. einem halben Jahr Updates. Außerdem ist MS Office 2010 Starter (Word 2010 und Excel 2010 ) als Vollversion enthalten</li>
+          <li>shinobee gewährt auf dieses Gerät 36 Monate Herstellergarantie !</li>
+      </ul></p>
+           </div ></td>
+		   <td>
+		 <div class="rechtedivbestellungseite">
+			<table>
+			<tr>
+			<td><h2 style="margin-top: 30%; height:5px;  align-items: center;">399,00€</h2></td>
+			</tr>
+			<tr>
+			<td><h2 style="color:green; height:15px">Auf Lager</h2></td>
+			</tr>
+				<form method="POST" action="../bestellen.php">	
+			    <input type="hidden" name="ProduktID" value="3">
+			<tr><td>
+			
+		   Menge: <select name="bestellmenge">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                 <option value="3">3</option>
+                 <option value="4">4</option>
+		         <option value="5">5</option>
+                 <option value="6">6</option>
+                 <option value="7">7</option>
+                <option value="9">8</option>
+		       <option value="10">10</option>
+            </select><br><br>
+			</td></tr>
+			<tr>
+			<td>
+			    <div class="input-container">
+                    <input type="text" id="str" name="kstr" required>
+                    <label for="str">Straße</label>
+                </div>
+				<div class="input-container">
+                    <input type="text" id="kort" name="kortundplz" required>
+                    <label for="kort">Ort, PLZ</label>
+                </div>
+			</td>
+			</tr>
+		   <tr>
+		   <td><input type="submit" value="Bestellen"></td>
+		   </tr>
+		    </table>
+			</div>
+		   </td>  
+       </tr>
+	   </table>
+      </table>				  
+        </div>  
+        </div>
+     </form>	  
+		
+      </div>
+   
+  	
+   </label>
+  <div class="loginoutbox">
+         <h2><a href="logout.php">Ausloggen</a></h2>
+     </div>
+</body>
+</html>

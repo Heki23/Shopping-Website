@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- stellt sicher, dass der Browser den Text wie ä,ü,ß auf der Webseite korrekt interpretiert und darstellt, unabhängig von der verwendeten Sprache oder den Zeichen im Text  -->
+    <meta charset="UTF-8">
+    <title>Unsere Produkte</title>
+    <link href="../../style.css" type="text/css" rel="stylesheet">
+	<script src="../produktname.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="box">
+        <h1>Unsere Produkte</h1>
+    </div>
+	
+    <div class="container">
+	   <div class="box produktdetailimg"> 
+		<table>
+	    <tr>
+		  
+           <td><img src="4.jpg" height=400px /> </td>
+		   <td><div class="beschreibung" >
+           <h4><p>Komplett PC Entry Gaming/Multimedia Computer | AMD Ryzen3 Pro 2100, 4-Threads, 3.4 GHz | 16GB DDR4 | 256GB SSD + 1TB | Radeon™ Vega3 4GB | 24" | WLAN | DVD | Win11</p></h4>	
+	
+   
+		   <hr style='width:100%' align='left' color='#D8D8D8' size='1'></hr>
+		   	    <h2>Info zu diesem Artikel</h2>
+		  <p><ul>
+		   <li>Das Gerät ist mit einem sehr schnellen Ryzen3 PRO 2100GE 4-Thread Prozessor sowie schnellen 16GB DDR4 Markenarbeitsspeicher ausgestattet, die mehr als genug Leistung für rechenintensive Anwendungen, Multitasking und Multimedia bereitstellen. Die große 256 GB SSD + 1000 GB HDD sind ideal um all ihre Daten zu speichern. Der DVD-Brenner speichert zuverlässig alles auf CD oder DVD.</li>
+           <li>Der PC kommt komplett mit einem 24" LED TFT, Gaming Tastatur und Gaming Maus, WLAN, und USB 3. Sie können sofort arbeiten und sich in ihr WLAN einwählen</li>
+           <li>Alle benötigten Kabel sind dabei, sie können sofort arbeiten oder spielen. Das Gerät ist sehr leise gekühlt, sie können damit sehr entspannt arbeiten..</li>
+           <li>Der PC wird mit Betriebssystem geliefert, Microsoft Windows 11 Professional 64 Bit ist inkl. aller Treiber fertig installiert. Um Viren und andere Schädlinge zuverlässig abzuwehren ist die neueste GDATA Internet Security installiert inkl. einem halben Jahr Updates. Außerdem ist MS Office 2010 Starter (Word 2010 und Excel 2010 ) als Vollversion enthalten</li>
+          <li>shinobee gewährt auf dieses Gerät 36 Monate Herstellergarantie !</li>
+      </ul></p>
+           </div ></td>
+		   <td>
+		  <div class="rechtedivbestellungseite">
+			<table>
+			<tr>
+			<td><h2 style="margin-top: 30%; height:5px;  align-items: center;">499,00€</h2></td>
+			</tr>
+			<tr>
+			<td><h2 style="color:green; height:15px">Auf Lager</h2></td>
+			</tr>
+			<form method="POST" action="../bestellen.php">	
+	
+			<input type="hidden" name="ProduktID" value="4">
+			<tr><td>
+		   Menge: <select name="bestellmenge">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                 <option value="3">3</option>
+                 <option value="4">4</option>
+		         <option value="5">5</option>
+                 <option value="6">6</option>
+                 <option value="7">7</option>
+                <option value="9">8</option>
+		       <option value="10">10</option>
+            </select><br><br>
+			</td></tr>
+			<tr>
+			<td>
+			    <div class="input-container">
+                    <input type="text" id="str" name="kstr" required>
+                    <label for="str">Straße</label>
+                </div>
+				<div class="input-container">
+                    <input type="text" id="kort" name="kortundplz" required>
+                    <label for="kort">Ort, PLZ</label>
+                </div>
+			</td>
+			</tr>
+		   <tr>
+		   <td><input type="submit" value="Bestellen"></td>
+		  </tr>
+		    </table>
+			</div>
+		   </td>  
+       </tr>
+      </table>			
+     </form>	  
+        </div>
+     </form>
+   
+  	
+   </label>
+  <div class="loginoutbox">
+         <h2><a href="logout.php">Ausloggen</a></h2>
+     </div>
+</body>
+</html>
