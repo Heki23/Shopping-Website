@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- stellt sicher, dass der Browser den Text wie ä,ü,ß auf der Webseite korrekt interpretiert und darstellt, unabhängig von der verwendeten Sprache oder den Zeichen im Text  -->
+    <meta charset="UTF-8">
+    <title>Login</title>
+	<script type="text/javascript" src="cookies.js"></script>
+    <link href="../style.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="mycode.js"></script>
+</head>
+<body>
+ 
+    <div class="container">
+        <div class="box">
+            <h1>Login</h1>
+            <h3> Mitarbeiter </h3>
+            <form name="loginForm" method="post" action="login.php"><br>
+                <div class="input-container">
+                    <input type="text" id="benutzer" name="benutzer" required>
+                    <label for="Lblusername">Benutzername</label>
+                </div>
+
+                <div class="input-container">
+                    <input type="password" id="passwort" name="passwort" required>
+                    <label for="Lblpassword">Passwort</label>
+                </div>
+
+                <input type="submit" value="Einloggen">
+            </form>
+        </div>
+      </div>
+	      <img class="willkommenimg"  src="../willkommen.png" width="400" style="border: 0px"/>
+
+   <a href="../index.html" class="mLogin">Für Kunde </a>
+   
+   
+  
+</body>
+</html>
